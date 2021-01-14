@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d664e6db4089c56d365",
-    "url": "/vue-dynamic-components/css/app.6bb884d3.css"
+    "revision": "d3d3368e13b65ee3e4c2",
+    "url": "/vue-dynamic-components/css/app.4e75fff3.css"
   },
   {
     "revision": "e80574e9ab1b5b6ee34c",
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-dynamic-components/fonts/element-icons.732389de.ttf"
   },
   {
-    "revision": "caa74d084265d02a915b21a26190bbb9",
+    "revision": "22d8f9f6e21b8f254b9def6f97ac2559",
     "url": "/vue-dynamic-components/index.html"
   },
   {
-    "revision": "0d664e6db4089c56d365",
-    "url": "/vue-dynamic-components/js/app.3c05c013.js"
+    "revision": "d3d3368e13b65ee3e4c2",
+    "url": "/vue-dynamic-components/js/app.118b7309.js"
   },
   {
     "revision": "e80574e9ab1b5b6ee34c",
