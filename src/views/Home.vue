@@ -1,7 +1,7 @@
 <template>
   <main>
     <keep-alive>
-      <component :is="forms[step].component"></component>
+      <component :is="forms[step]"></component>
     </keep-alive>
     <Steps @input="updateStep" />
   </main>
@@ -23,35 +23,13 @@ export default Vue.extend({
   data() {
     return {
       step: 0,
+      forms: ['Form1', 'Form2', 'Form3', 'EndStepForm'],
     };
   },
 
   methods: {
     updateStep(v: number) {
       this.step = v;
-    },
-  },
-
-  computed: {
-    forms(): object {
-      return [
-        {
-          name: 'Form1',
-          component: Form1,
-        },
-        {
-          name: 'Form2',
-          component: Form2,
-        },
-        {
-          name: 'Form3',
-          component: Form3,
-        },
-        {
-          name: 'End',
-          component: EndStepForm,
-        },
-      ];
     },
   },
 });
